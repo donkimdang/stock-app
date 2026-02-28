@@ -1,16 +1,23 @@
-# React + Vite
+# Stock Price Tracker
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React web app that fetches real-time stock prices from the Finnhub API and displays them in a table. Users can set a time interval to automatically refresh and track price changes over time.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Search any stock by ticker symbol (e.g. AAPL, GOOGL, TSLA)
+- Auto-refresh at a custom interval (minutes and seconds)
+- Manual refresh button for on-demand updates
+- Each fetch appends a new row so you can compare prices over time
 
-## React Compiler
+## Built With
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React
+- Vite
+- Finnhub Stock API
 
-## Expanding the ESLint configuration
+## Getting Started
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```bash
+npm install
+npm run dev
+```
