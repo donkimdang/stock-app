@@ -1,0 +1,5 @@
+- webpage with 3 text boxes and submit button 
+- area to display stock data after user submits search 
+
+- get api key from finnhub stock api
+d51o8hhr01qiituq2lh0d51o8hhr01qiituq2lhg
